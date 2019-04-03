@@ -3,7 +3,7 @@
 use BigV\Holiday;
 use BigV\NZHolidays;
 
-require __DIR__ . "/vendor/autoload.php";
+require __DIR__ . "/../vendor/autoload.php";
 
 $holidays = new NZHolidays();
 for ($year = 2019; $year <= 2021; $year++) {
