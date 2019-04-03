@@ -1,0 +1,23 @@
+{
+    "name": "vajiral/php-nzholidays",
+    "description": "A light weight PHP class that can calculate public holidays in New Zealand.",
+    "keywords": ["lightweight", "PHP library", "new zealand", "holiday", "public holiday"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vajira Lasantha",
+            "email": "vajee555@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^5.5.9 || ^7.0",
+        "ext-calendar": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BigV\\": "src/"
+        }
+    }
+}
